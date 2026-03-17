@@ -5,4 +5,4 @@ Width = float(input("Enter the Width of rectangle: "))
 
 Area = Length * Width
 
-print("The area of rectangle is ", Area)
+print("The area of rectangle is ", Area) 

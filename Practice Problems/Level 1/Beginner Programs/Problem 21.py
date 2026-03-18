@@ -1,8 +1,8 @@
-Cost_price = float(input("Enter the cost price: "))
-Selling_Price = float(input("Enter the selling price: "))
+#Problem 21: Discount Price Calculator
 
-calculate = Cost_price - Selling_Price
-if calculate > 0:
-    print("Loss of", calculate, "rupees")
-else:
-    print("Profit of", abs(calculate), "rupees")
+Original_Price = float(input("Enter the original price: "))
+Discount = float(input("Enter Discount (In Percentage): "))
+
+Final_Price = (Original_Price * Discount) / 100
+
+print("The final price after discount: ", Final_Price)

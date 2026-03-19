@@ -10,4 +10,4 @@ elif First_Number < Second_Number:
 elif First_Number == Second_Number:
     print(First_Number, "=", Second_Number, "(both numbers are equal)")
 else:
-    print("Invalid number")
+    print("The number is invalid")

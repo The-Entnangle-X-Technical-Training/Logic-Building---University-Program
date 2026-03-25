@@ -9,7 +9,7 @@ first_digit = (number // 100)
 sum = first_digit + middle_digit + last_digit
 
 if number % sum == 0:
-    print(number, "is a harshad number")
+   print(number, "is a harshad number")
 else:
-    print(number, "is not a harshad number")
+   print(number, "is not a harshad number")
     
